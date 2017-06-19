@@ -1,0 +1,29 @@
+html {
+    font-size: 18px;
+}
+* {
+    font-family: 'Indie Flower', cursive;
+}
+.red {
+    color: red;
+}
+.big {
+    font-size: larger;
+}
+div ~ p {
+    color: green;
+}
+p:hover {
+    color: yellow;
+}
+p::First-letter {
+    color: blue;
+}
+p::before {
+    content: "<";
+    color: rgba(20, 226, 151, .5);
+}
+p::after {
+    content: ">";
+    color: rgba(20, 226, 151, .5);
+}
